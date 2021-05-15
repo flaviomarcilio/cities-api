@@ -1,4 +1,4 @@
-package com.github.flaviomarcilio.citiesapi.cities;
+package com.github.flaviomarcilio.citiesapi.cities.entities;
 
 import org.hibernate.annotations.Type;
 import org.hibernate.annotations.TypeDef;

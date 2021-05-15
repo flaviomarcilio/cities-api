@@ -1,4 +1,4 @@
-package com.github.flaviomarcilio.citiesapi.cities;
+package com.github.flaviomarcilio.citiesapi.cities.entities;
 
 import org.hibernate.HibernateException;
 import org.hibernate.engine.spi.SharedSessionContractImplementor;

@@ -1,5 +1,6 @@
-package com.github.flaviomarcilio.citiesapi.cities;
+package com.github.flaviomarcilio.citiesapi.cities.repositories;
 
+import com.github.flaviomarcilio.citiesapi.cities.entities.City;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

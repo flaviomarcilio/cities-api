@@ -1,4 +1,4 @@
-package com.github.flaviomarcilio.citiesapi.cities;
+package com.github.flaviomarcilio.citiesapi.cities.resources;
 
 import com.github.flaviomarcilio.citiesapi.cities.service.DistanceService;
 import org.slf4j.Logger;
