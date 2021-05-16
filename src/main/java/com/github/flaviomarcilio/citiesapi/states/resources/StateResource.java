@@ -2,6 +2,7 @@ package com.github.flaviomarcilio.citiesapi.states.resources;
 
 import com.github.flaviomarcilio.citiesapi.states.entities.State;
 import com.github.flaviomarcilio.citiesapi.states.repositories.StateRepository;
+
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

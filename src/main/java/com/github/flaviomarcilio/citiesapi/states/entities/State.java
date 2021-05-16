@@ -2,6 +2,7 @@ package com.github.flaviomarcilio.citiesapi.states.entities;
 
 import com.github.flaviomarcilio.citiesapi.countries.entities.Country;
 import com.vladmihalcea.hibernate.type.json.JsonBinaryType;
+
 import org.hibernate.annotations.Type;
 import org.hibernate.annotations.TypeDef;
 import org.hibernate.annotations.TypeDefs;

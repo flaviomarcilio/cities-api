@@ -2,6 +2,7 @@ package com.github.flaviomarcilio.citiesapi.cities.resources;
 
 import com.github.flaviomarcilio.citiesapi.cities.entities.City;
 import com.github.flaviomarcilio.citiesapi.cities.repositories.CityRepository;
+
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.web.bind.annotation.GetMapping;

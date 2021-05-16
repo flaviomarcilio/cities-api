@@ -2,8 +2,10 @@ package com.github.flaviomarcilio.citiesapi.cities.service;
 
 import com.github.flaviomarcilio.citiesapi.cities.entities.City;
 import com.github.flaviomarcilio.citiesapi.cities.repositories.CityRepository;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
 import org.springframework.data.geo.Point;
 import org.springframework.stereotype.Service;
 
