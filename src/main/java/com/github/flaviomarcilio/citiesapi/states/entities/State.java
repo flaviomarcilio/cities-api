@@ -3,6 +3,8 @@ package com.github.flaviomarcilio.citiesapi.states.entities;
 import com.github.flaviomarcilio.citiesapi.countries.entities.Country;
 import com.vladmihalcea.hibernate.type.json.JsonBinaryType;
 
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.hibernate.annotations.Type;
 import org.hibernate.annotations.TypeDef;
 import org.hibernate.annotations.TypeDefs;
@@ -15,16 +17,21 @@ import java.util.List;
 @TypeDefs({
         @TypeDef(name = "jsonb", typeClass = JsonBinaryType.class)
 })
+@ApiModel
 public class State {
 
     @Id
+    @ApiModelProperty(notes = "Identificador único do Estado")
     private Long id;
 
     @Column(name = "nome")
+    @ApiModelProperty(notes = "Nome do Estado")
     private String name;
 
+    @ApiModelProperty(notes = "Sigla do Estado")
     private String uf;
 
+    @ApiModelProperty(notes = "Código IBGE")
     private Integer ibge;
 
     // 1st - Retorna o Id do pais

@@ -10,6 +10,7 @@ desenvolvido durante o Bootcamp da Digital Innovation One
 * Docker
 * IntelliJ Community
 * Heroku CLI
+* Swagger
 
 ## DataBase
 
@@ -88,7 +89,7 @@ select earth_distance(
 ### Properties
 
 * [appendix-application-properties](https://docs.spring.io/spring-boot/docs/current/reference/html/appendix-application-properties.html)
-* [jdbc-database-connectio](https://www.codejava.net/java-se/jdbc/jdbc-database-connection-url-for-common-databases)
+* [jdbc-database-connection](https://www.codejava.net/java-se/jdbc/jdbc-database-connection-url-for-common-databases)
 
 ### Types
 
